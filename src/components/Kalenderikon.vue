@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>Kalender</h1>
+        <h1>Kalenderi</h1>
     </header>
 </template>
 
