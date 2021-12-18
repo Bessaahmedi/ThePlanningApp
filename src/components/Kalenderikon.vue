@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>Kalenderikon</h1>
+        <h1>Kalender</h1>
     </header>
 </template>
 
