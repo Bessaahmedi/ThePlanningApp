@@ -29,10 +29,12 @@ export default {
 
   text-decoration: none;
   color: black;
+  background: #ebeef2;
+
 }
 
 .container {
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
   overflow: auto;
   height: auto;
