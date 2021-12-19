@@ -1,21 +1,19 @@
 <template>
   <div class="container">
     <Header />
-    <Kalenderikon />
-   
-    
+    <Frontpage />
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
-import Kalenderikon from './components/Kalenderikon'
+import Frontpage from './components/Frontpage'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Kalenderikon,
+    Frontpage,
   },
 }
 </script>
@@ -27,15 +25,16 @@ export default {
 
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    box-sizing: border-box;
 
+  text-decoration: none;
+  color: black;
 }
 
 .container {
   max-width: 500px;
   margin: 0 auto;
   overflow: auto;
-  min-height: 300px;
-  border-radius: 5px;
+  height: auto;
 }
 </style>
