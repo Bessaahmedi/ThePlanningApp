@@ -24,7 +24,8 @@ export default {
 .same {
     width: 130px;
     height: 130px;
-    background-color: pink;
+    background-color: #f2c2b7;
+    
     font-size: 8px;
     justify-content: center;
     align-items: center;
